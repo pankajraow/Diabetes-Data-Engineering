@@ -1,0 +1,57 @@
+--- Summary Statistics ---
+                          mean  ...  missing_%
+age                   44.39276  ...        0.0
+bmi                   24.95990  ...        0.0
+HbA1c_level            5.42728  ...        0.0
+blood_glucose_level  117.54291  ...        0.0
+
+[4 rows x 6 columns]
+
+Gender Counts:
+gender
+Female    341
+Other     337
+Male      322
+Name: count, dtype: int64
+
+Smoking History Counts:
+smoking_history
+not current    191
+ever           179
+No Info        163
+never          160
+current        157
+former         150
+Name: count, dtype: int64
+
+Diabetes Prevalence (%):
+diabetes
+0    85.5
+1    14.5
+Name: proportion, dtype: float64
+
+--- Correlation Analysis ---
+Correlations with Diabetes:
+diabetes               1.000000
+HbA1c_level            0.210551
+age                    0.168976
+hypertension           0.086948
+bmi                    0.086880
+blood_glucose_level    0.059531
+heart_disease         -0.027695
+Name: diabetes, dtype: float64
+
+--- Risk Group Statistics ---
+                          Cohort  ...  Diabetes %
+0            Elderly (Age >= 60)  ...   26.213592
+1         Overweight (BMI >= 30)  ...   27.631579
+2             Hypertension (Yes)  ...   24.175824
+3            Heart Disease (Yes)  ...   10.204082
+4          High Glucose (>= 180)  ...   40.909091
+5  Smokers (Current/Ever/Former)  ...   16.049383
+
+[6 rows x 3 columns]
+
+--- Generating Plots ---
+
+--- Multicollinearity Check ---

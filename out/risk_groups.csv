@@ -1,0 +1,7 @@
+Cohort,N,Diabetes %
+Elderly (Age >= 60),309,26.21359223300971
+Overweight (BMI >= 30),152,27.631578947368425
+Hypertension (Yes),91,24.175824175824175
+Heart Disease (Yes),49,10.204081632653061
+High Glucose (>= 180),22,40.909090909090914
+Smokers (Current/Ever/Former),486,16.049382716049383
