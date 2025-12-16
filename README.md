@@ -3,6 +3,10 @@
 ## Overview
 This project contains the data engineering (ETL) and exploratory data analysis (EDA) pipeline for the Diabetes Prediction Dataset.
 
+## Dataset Source
+This project uses the **Diabetes Prediction Dataset** sourced from Kaggle:
+[https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
+
 ## Project Structure
 - `data/`: Contains raw and processed datasets.
 - `src/`: Source code for ETL and Analysis.
