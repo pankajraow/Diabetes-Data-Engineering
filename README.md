@@ -8,7 +8,7 @@ This project contains the data engineering (ETL) and exploratory data analysis (
 - `src/`: Source code for ETL and Analysis.
     - `etl.py`: Validation, Cleaning, Encoding, Scaling, Splitting.
     - `analysis.py`: Summary stats, plots, and reports.
-- `out/`: Analysis outputs (plots, correlations, risk groups).
+- `output/`: Analysis outputs (plots, correlations, risk groups).
 
 ## Usage
 1. Install dependencies: `pip install -r requirements.txt`

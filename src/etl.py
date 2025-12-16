@@ -8,7 +8,7 @@ import os
 # --- Configuration ---
 DATA_PATH = os.path.join("data", "diabetes_prediction_dataset.csv")
 PROCESSED_DIR = os.path.join("data", "processed")
-OUT_DIR = os.path.join("out")
+OUT_DIR = os.path.join("output")
 
 # --- Schema Definition ---
 # Defining strict schema for validation

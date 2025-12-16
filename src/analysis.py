@@ -7,7 +7,7 @@ import json
 
 # --- Configuration ---
 DATA_PATH = os.path.join("data", "diabetes_prediction_dataset.csv") # Use RAW data for EDA as per prompt implication (or can use processed)
-OUT_DIR = os.path.join("out")
+OUT_DIR = os.path.join("output")
 PLOTS_DIR = os.path.join(OUT_DIR, "plots")
 
 os.makedirs(PLOTS_DIR, exist_ok=True)
